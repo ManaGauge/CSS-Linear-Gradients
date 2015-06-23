@@ -12,10 +12,11 @@ div.Title {
     margin-right: auto;
 }
 p {
-    margin-left: 20px;
+    padding: 20px;
     font-family: Bodoni MT, Geneva, sans-seri;
 }
 [class*="Panel"]:before {
+	box-sizing: border-box;
     background: linear-gradient(-45deg, #990099 12px, transparent 0), linear-gradient(45deg, #000000 12px, transparent 0);
     background-repeat: repeat-x;
     background-size: 32px 32px;
